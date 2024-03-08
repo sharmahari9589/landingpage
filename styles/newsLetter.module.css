@@ -1,0 +1,119 @@
+.maindiv {
+    height: 1100px;
+    background-image: url('../assets//backImg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  align-items: center;
+   
+}
+
+.firstDiv {
+    height: 800px;
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topContent > h1 {
+    line-height: 45px;
+    color: #fff;
+    font-size: 35px;
+    padding-left: 11%;
+    padding-right: 11%;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.topContent > input {
+    font-size: 18px;
+    color: #fff !important;
+    outline: none;
+    height: 46px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #fff;
+    margin-left: 70px;
+    margin-top: 60px;
+}
+
+.topContent > input::placeholder {
+    color: #fff; /* Set placeholder color to white */
+}
+
+.topContent > button {
+    height: 46px;
+    border-radius: 23px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    margin-left: 150px;
+    font-size: 18px;
+    width: 300px;
+    transition: all .5s;
+    cursor:pointer;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #4b8ef1;;
+}
+.secondDiv {
+    position: relative;
+    top: -534px;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    margin-left: 110px;
+    margin-right: 110px;
+    gap: 5%;
+}
+
+.linkDiv {
+    width: 25%;
+}
+
+.linkDiv >h2 {
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 700;
+}
+
+.linkDiv > p {
+    font-size: 17px;
+    line-height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.aboutDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutDiv > div {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.aboutDiv > div > a {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:600 ;
+    text-decoration: none;
+    padding:10px ;
+}
+
+.lastDiv{
+    position: relative;
+    margin-top: -440px;
+    text-align: center;
+    margin-left: 35px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}

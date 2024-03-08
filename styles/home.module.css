@@ -1,0 +1,114 @@
+
+.mainDiv {
+    width: 1000px;
+    height: 850px;
+/* position: relative; */
+display: flex;
+}
+
+.firstDiv {
+background-image: url('https://templatemo.com/templates/templatemo_570_chain_app_dev/assets/images/slider-left-dec.png');
+height: 100%;
+width: 100%;
+background-size: contain;
+background-repeat: no-repeat;
+top: -100px;
+left: 0;
+/* position: relative; */
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+.secondDiv {
+background-image: url('https://templatemo.com/templates/templatemo_570_chain_app_dev/assets/images/slider-dec.png');
+/* width: 300px; */
+background-size: contain;
+background-repeat: no-repeat;
+height: 500px;
+margin-left: 700px;
+position: absolute;
+width: 500px;
+margin-top: 230px;
+transform: translateX(100%);
+animation: slideFromRight 1s forwards;
+}
+
+@keyframes slideFromRight {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+.contentDiv {
+    width: 500px;
+    margin-left: -250px;
+    margin-top: 110px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transform: translateX(-100%);
+    animation: slideFromLeft 1s forwards;
+}
+
+@keyframes slideFromLeft {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+.heading {
+    /* display: block; */
+    font-size: 42px;
+    font-weight: 700;
+    color: rgb(43, 38, 38);
+    line-height: 1.6;
+}
+
+.para {
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(43, 38, 38);
+    line-height: 1.6;
+}
+
+.buttonHolder {
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonHolder > button {
+    background-color: #337ceb;
+    color: #ffff;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    width: 150px;
+    border: none;
+    border-radius: 23px;
+}
+
+
+/* media queries */
+
+
+  @media screen and (max-width: 1300px) {
+  .firstDiv {
+    width: 70%;
+    }
+    .secondDiv {
+      width: 250px;
+margin-left: 550px;
+
+    }
+    .contentDiv {
+      margin-left: -150px;
+      margin-top: -80px;
+      width: 450px;
+    }
+
+  }
